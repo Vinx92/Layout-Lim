@@ -1,0 +1,127 @@
+/* Back ground immagine */
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* tutto quello che riguarda il logo */
+.Box {
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 75em;
+    height: 50em;
+    margin-top: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contenitore-Logo {
+    display: flex;
+    justify-content: center;
+}
+
+.Box-Logo {
+    width: 15em;
+    height: 10em;
+    margin-top: 60px;
+
+}
+
+.Logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Titolo della pagina */
+.Titolo {
+    color: rgb(100, 208,65);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* menu pagina */
+.Box-Menu {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 208,65)  ;
+    width: 85%;
+    height: 50px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 2px;
+    background-color: aliceblue;
+    border: solid 1px rgb(92, 92, 92);
+    border-radius: 3px;
+    margin: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* quello che riguarda il testo e le barre di carica */
+
+.Contenitore-Testo {
+    display: flex;
+    justify-content: center;
+}
+.Box-Testo {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.Testo-Chek {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.Via {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.PrimaCarica {
+    background-color: rgb(235, 183, 100);
+    height: 30px;
+    width: 35%;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.SecondaCarica {
+    background-color: rgb(92,192,64) ;
+    height: 30px;
+    width: 55%;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.TerzaCarica {
+    background-color: rgb(176,74,70) ;
+    height: 30px;
+    width: 17%;
+    border-radius: 10px;
+}
